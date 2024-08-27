@@ -1,0 +1,10 @@
+.custom-modal {
+    display: block !important; /* Asegura que el modal esté visible cuando sea necesario */
+    /* Añade más estilos según tus necesidades */
+    z-index: 10000;
+    background: #0000004d;
+  }
+
+  .fade {
+    transition: opacity .15s linear !important;
+}

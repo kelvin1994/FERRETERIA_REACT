@@ -1,0 +1,24 @@
+.floating-button {
+    position: fixed;
+    bottom: 50px; /* Ajusta según el espacio deseado desde el fondo */
+    right: 50px;  /* Ajusta según el espacio deseado desde la derecha */
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+  }
+  
+  .floating-button .btn {
+    width: 90px; /* Ajusta el tamaño del botón */
+    height: 90px; /* Ajusta el tamaño del botón */
+    font-size: 30px; /* Tamaño del icono */
+    display: flex; /* Usa flexbox para centrar el icono */
+    align-items: center; /* Centra verticalmente el icono */
+    justify-content: center; /* Centra horizontalmente el icono */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;  /* Sombra para resaltar el botón */
+  }
+  
+  .floating-button .icon {
+    color: #24262B !important; /* Color del icono */
+  }
+  
+  .floating-button button:hover {
+    background-color: #c79f00 !important; /* Color amarillo claro en hover */
+  }

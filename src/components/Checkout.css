@@ -1,0 +1,35 @@
+.checkout-list {
+  list-style-type: none; /* Remove default bullets */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  font-family: Arial, sans-serif; /* Use a clean, modern font */
+}
+
+/* Styling for each list item */
+.checkout-item {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Distribute items evenly */
+  padding: 10px 0; /* Add vertical spacing */
+  border-bottom: 1px solid #ddd; /* Add a subtle border for separation */
+}
+
+/* Styling for item name */
+.item-name {
+  font-weight: bold; /* Make the item name stand out */
+}
+
+/* Styling for item price */
+.item-price {
+  color: #333; /* A darker color for price for better readability */
+}
+
+/* Styling for item quantity */
+.item-quantity {
+  color: #666; /* A lighter color for quantity to distinguish it */
+}
+
+/* Optional: Add hover effect for better interaction */
+.checkout-item:hover {
+  background-color: #f9f9f9; /* Light background on hover */
+  cursor: pointer; /* Indicate that the item is interactive */
+}
